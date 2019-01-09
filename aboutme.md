@@ -4,13 +4,12 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+이노팸은 2014년 서울시립대학교 공간정보공학과 센서및모델링연구실 벤처로 창업한 실내외 멀티 센서 데이터 수집기술, 데이터 고속 자동융합 처리 기술, 고정밀 측위 및 매핑 기술 등의 전문 기업입니다.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- 무인항공기 기반 고속 자동 매핑
+- 멀티 센서 데이터 기반 실내외 모델링
+- 비전 센서 기반 차량 측위 및 매핑
 
-What else do you need?
 
-### my history
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+
