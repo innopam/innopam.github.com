@@ -4,28 +4,42 @@
 		<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5f1892779724f92e035405b0da2c9f5e"></script>		
 		<script>
 		function initialize() {
-			var myLatlng = new daum.maps.LatLng(37.533468,126.96024);
+			var myLatlng = new daum.maps.LatLng(37.5594049,126.9894345),
+				latLngHq = new daum.maps.LatLng(37.5830126,127.0585939),
+				latLngLb = new daum.maps.LatLng(37.5336172,126.9604495);
+			
 			var container = document.getElementById('map');
 			var options = {
 				center: myLatlng,
 				draggable: false,
-				level: 3
+				level: 7
 			};
 
-			var map = new daum.maps.Map(container, options);
-			var marker = new daum.maps.Marker({
-				position: myLatlng
+			var map = new daum.maps.Map(container, options),
+				marker = new daum.maps.Marker({
+				position: latLngHq
+			}),
+				marker2 = new daum.maps.Marker({
+				position: latLngLb
 			});
 			marker.setMap(map);
+			marker2.setMap(map);
 			
 			var iwContent = 
-			'<div style="padding:5px;text-align:center;"><a href="http://map.daum.net/link/to/이노팸연구소!,33.450701,126.570667" style="color:blue" target="_blank"><img src="/img/logos/innopam_ci_s.png"></a></div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+			'<div style="padding:5px;text-align:center;"><a href="http://map.daum.net/link/to/이노팸,37.5830126,127.0585939" style="color:blue" target="_blank"><img src="/img/logos/innopam_ci_s.png"></a></div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
 			var infowindow = new daum.maps.InfoWindow({
-				position : myLatlng, 
+				position : latLngLb, 
 				content : iwContent 
 			});
-			  
 			infowindow.open(map, marker); 
+			
+			var iwContent2 = 
+			'<div style="padding:5px;text-align:center;"><a href="http://map.daum.net/link/to/이노팸연구소,37.533468,126.96074" style="color:blue" target="_blank"><img src="/img/logos/innopam_ci_s.png"></a></div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+			var infowindow2 = new daum.maps.InfoWindow({
+				position : latLngLb, 
+				content : iwContent 
+			});
+			infowindow2.open(map, marker2); 
 		}
 
 		initialize();
