@@ -110,24 +110,12 @@
 			'            <span class="arrow up"></span>' +
 			'            <span class="count">6</span>' +
 			'        </li>' +
-			'        <li>' +
-			'            <span class="number">4</span>' +
-			'            <span class="title">해무</span>' +
-			'            <span class="arrow up"></span>' +
-			'            <span class="count">3</span>' +
-			'        </li>' +
-			'        <li>' +
-			'            <span class="number">5</span>' +
-			'            <span class="title">안녕, 헤이즐</span>' +
-			'            <span class="arrow down"></span>' +
-			'            <span class="count">1</span>' +
-			'        </li>' +
 			'    </ul>' +
 			'</div>';
 	
 			// 커스텀 오버레이를 생성합니다
 			var customOverlay = new daum.maps.CustomOverlay({
-				position: position,
+				position: latlng,
 				content: content,
 				xAnchor: 0.3,
 				yAnchor: 0.91
