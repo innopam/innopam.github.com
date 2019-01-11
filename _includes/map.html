@@ -28,7 +28,7 @@
 			var iwContent = 
 			'<div style="padding:5px;text-align:center;"><a href="http://map.daum.net/link/to/이노팸,37.5830126,127.0585939" style="color:blue" target="_blank">이노팸 본사</a></div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
 			var infowindow = new daum.maps.InfoWindow({
-				position : latLngLb, 
+				position : latLngHq, 
 				content : iwContent 
 			});
 			infowindow.open(map, marker); 
@@ -37,7 +37,7 @@
 			'<div style="padding:5px;text-align:center;"><a href="http://map.daum.net/link/to/이노팸연구소,37.5336172,126.9604495" style="color:blue" target="_blank">이노팸 연구소</a></div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
 			var infowindow2 = new daum.maps.InfoWindow({
 				position : latLngLb, 
-				content : iwContent2
+				content : iwContent
 			});
 			infowindow2.open(map, marker2); 
 		}
