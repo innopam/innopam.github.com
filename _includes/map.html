@@ -1,0 +1,36 @@
+<!-- Services Section -->
+    <section id="services">
+		<div id="map" class="container"></div>
+		<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5f1892779724f92e035405b0da2c9f5e"></script>
+		
+		<script>
+		function initialize() {
+			var myLatlng = new google.maps.LatLng(37.533468,126.9601924);
+			var container = document.getElementById('map');
+			var options = {
+				center: myLatlng,
+				level: 3
+			};
+
+			var map = new daum.maps.Map(container, options);
+			var marker = new daum.maps.Marker({
+				position: myLatlng
+			});
+			marker.setMap(map);
+			
+			var iwContent = 
+			'<div style="padding:5px;">InnoPAM<br><a href="http://map.daum.net/link/map/이노팸!,37.533468,126.9601924" style="color:blue" target="_blank">큰지도보기</a> <a href="http://map.daum.net/link/to/Hello World!,33.450701,126.570667" style="color:blue" target="_blank">길찾기</a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+
+			// 인포윈도우를 생성합니다
+			var infowindow = new daum.maps.InfoWindow({
+				position : myLatlng, 
+				content : iwContent 
+			});
+			  
+			// 마커 위에 인포윈도우를 표시합니다. 두번째 파라미터인 marker를 넣어주지 않으면 지도 위에 표시됩니다
+			infowindow.open(map, marker); 
+		}
+
+		initialize();
+		</script>
+    </section>

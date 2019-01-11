@@ -1,9 +1,21 @@
----
-layout: base
----
+<!DOCTYPE html>
+<html>
 
-<div class="intro-header"></div>
+  {% include head.html %}
 
-<div role="main" class="container">
-  {{ content }}
-</div>
+
+    <body id="page-top" class="index">
+
+    {% include header.html %}
+	{% include solutions_grid.html %}
+	{% include products.html %}    
+    {% include about.html %}
+    {% include contact.html %}
+	{% include map.html %}
+    {% include footer.html %}
+    {% include modals.html %}
+	{% include modals_solution.html %}
+    {% include js.html %}
+
+    </body>
+</html>
