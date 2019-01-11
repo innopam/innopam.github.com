@@ -71,7 +71,7 @@
 				// 이벤트 리스너로는 클로저를 만들어 등록합니다 
 				// for문에서 클로저를 만들어 주지 않으면 마지막 마커에만 이벤트가 등록됩니다
 				
-				addCustomOverlay(positions[i].latlng,positions[i].name, map);
+				addCustomOverlay(positions[i], map);
 			}
 			map.setBounds(bounds);
 		
@@ -95,9 +95,7 @@
 		// HTML 문자열 또는 Dom Element 입니다 
 		var content = '<div class="overlaybox">' +
 			'    <div class="boxtitle">'+ position.name +'</div>' +
-			'    <div class="first" style="background-img:url(\"+'+ position.img+'+\")">' +
-			//'        <div class="triangle text">1</div>' +
-			//'        <div class="movietitle text">드래곤 길들이기2</div>' +
+			'    <div class="first" style="background-image:url(\"+'+ position.img+'+\")">' +
 			'    </div>' +
 			'    <ul>' +
 			'        <li class="up">' +
