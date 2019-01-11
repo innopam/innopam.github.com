@@ -928,6 +928,7 @@ body {
 .icon.email {
     background-image: url('img/icon/icon_email.svg');
 }
+#MapSection{padding:0;}
 #map{
 	margin:0;
 	padding:0;
