@@ -4,7 +4,7 @@
 		<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5f1892779724f92e035405b0da2c9f5e"></script>		
 		<script>
 		function initialize() {
-			var myLatlng = new daum.maps.LatLng(37.533468,126.9601924);
+			var myLatlng = new daum.maps.LatLng(37.533468,126.96024);
 			var container = document.getElementById('map');
 			var options = {
 				center: myLatlng,
@@ -19,7 +19,7 @@
 			marker.setMap(map);
 			
 			var iwContent = 
-			'<div style="padding:5px;"><img src="/img/logos/innopam_ci_s.png"><br><a href="http://map.daum.net/link/map/이노팸연구소!,37.533468,126.9601924" style="color:blue" target="_blank">큰지도보기</a> <a href="http://map.daum.net/link/to/이노팸연구소!,33.450701,126.570667" style="color:blue" target="_blank">길찾기</a></div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+			'<div style="padding:5px;"><img src="/img/logos/innopam_ci_s.png"><a href="http://map.daum.net/link/to/이노팸연구소!,33.450701,126.570667" style="color:blue" target="_blank">길찾기</a></div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
 			var infowindow = new daum.maps.InfoWindow({
 				position : myLatlng, 
 				content : iwContent 
