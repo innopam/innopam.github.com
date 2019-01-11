@@ -4,7 +4,7 @@
 		<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5f1892779724f92e035405b0da2c9f5e"></script>		
 		<script>
 		function initialize() {
-			var myLatlng = new daum.maps.LatLng(37.5594049,126.9894345),
+			var myLatlng = new daum.maps.LatLng(37.533468,126.96074),
 				latLngHq = new daum.maps.LatLng(37.5830126,127.0585939),
 				latLngLb = new daum.maps.LatLng(37.5336172,126.9604495);
 			
@@ -26,7 +26,7 @@
 			marker2.setMap(map);
 			
 			var iwContent = 
-			'<div style="padding:5px;text-align:center;"><a href="http://map.daum.net/link/to/이노팸,37.5830126,127.0585939" style="color:blue" target="_blank"><img src="/img/logos/innopam_ci_s.png"></a></div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+			'<div style="padding:5px;text-align:center;"><a href="http://map.daum.net/link/to/이노팸,37.5830126,127.0585939" style="color:blue" target="_blank">이노팸 본사</a></div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
 			var infowindow = new daum.maps.InfoWindow({
 				position : latLngLb, 
 				content : iwContent 
@@ -34,10 +34,10 @@
 			infowindow.open(map, marker); 
 			
 			var iwContent2 = 
-			'<div style="padding:5px;text-align:center;"><a href="http://map.daum.net/link/to/이노팸연구소,37.533468,126.96074" style="color:blue" target="_blank"><img src="/img/logos/innopam_ci_s.png"></a></div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+			'<div style="padding:5px;text-align:center;"><a href="http://map.daum.net/link/to/이노팸연구소,37.5336172,126.9604495" style="color:blue" target="_blank">이노팸 연구소</a></div>'; // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
 			var infowindow2 = new daum.maps.InfoWindow({
 				position : latLngLb, 
-				content : iwContent 
+				content : iwContent2
 			});
 			infowindow2.open(map, marker2); 
 		}
