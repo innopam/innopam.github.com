@@ -9,6 +9,9 @@
             </div>
             <div class="row">
             {% for solution in site.solutions %}
+				{% if post.modal-id %}
+				* {{ post.modal-id | escape }}
+				{% endif %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#solutionModal{{ solution.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
