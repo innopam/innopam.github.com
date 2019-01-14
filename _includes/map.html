@@ -44,12 +44,14 @@
 				{
 					name: '이노팸 본사', 
 					latlng: new daum.maps.LatLng(37.5830126,127.0585939),
-					img: 'http://innopam.com/img/uos21.png'
+					img: 'http://innopam.com/img/uos21.png',
+					address: '서울시 동대문구 서울시립대로 163 서울시립대학교 21세기관 711호'
 				},
 				{
 					name: '이노팸 연구소', 
 					latlng: new daum.maps.LatLng(37.5336172,126.9604495),
-					img: 'http://innopam.com/img/ysssg.png'
+					img: 'http://innopam.com/img/ysssg.png',
+					address: '서울시 용산구 청파로 77 원효전자상가 6동 3층 (주)이노팸 연구소'
 				}
 			];
 
@@ -122,6 +124,9 @@
 			'        </li>' +
 			'        <li>' +
 			'            <a href="http://map.daum.net/link/to/'+position.name+','+position.latlng.getLat()+','+position.latlng.getLng()+'" target="_blank" class="title">길찾기</span>' +
+			'        </li>' +
+			'        <li>' +
+			'			'+ position.address +
 			'        </li>' +
 			'    </ul>' +
 			'</div>';
