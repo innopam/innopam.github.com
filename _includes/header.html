@@ -42,15 +42,44 @@
     </nav>
 
     <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To InnoPAM!</div>
-                <div class="intro-heading">INNOVATIVE POSITIONING AND MAPPING</div>
-                <a href="#contact" class="page-scroll btn btn-xl">지금 연락하기</a>
-            </div>
-        </div>
-    </header>
+    <header class="fullwidthbanner-container">
+		<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1920px;height:722px;overflow:hidden;visibility:hidden;">
+			<!-- Loading Screen -->
+			<div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+				<div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+				<div style="position:absolute;display:block;background:url('img/slider/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+			</div>
+			<div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1920px;height:722px;overflow:hidden;">
+				<div>
+					<img data-u="image" src="img/slider/header-bg_1.jpg"/>
+					<div class="intro-text">
+						<div class="intro-lead-in">welcome to innopam!</div>
+						<div class="intro-heading">innovative positioning and mapping</div>
+						<a href="#contact" class="page-scroll btn btn-xl">지금 연락하기</a>
+					</div>				
+				</div>
+				<div>
+					<img data-u="image" src="img/slider/header-bg.jpg" />
+					<div class="intro-text">
+						<div class="intro-lead-in">welcome to innopam!</div>
+						<div class="intro-heading">innovative positioning and mapping</div>
+						<a href="#contact" class="page-scroll btn btn-xl">지금 연락하기</a>
+					</div>
+				</div>
+
+			</div>
+			<!-- Bullet Navigator -->
+			<div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+				<!-- bullet navigator item prototype -->
+				<div data-u="prototype" style="width:16px;height:16px;"></div>
+			</div>
+			<!-- Arrow Navigator -->
+			<span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+			<span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+		</div>
+	</header>
+<div class="clear"></div>
+<!--슬라이더 끝 -->
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
