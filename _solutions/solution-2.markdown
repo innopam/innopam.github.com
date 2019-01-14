@@ -1,15 +1,15 @@
 ---
-title: InnoPPK
-subtitle: 드론에 편리하게 장착 가능한 PPK 모듈
+title: InnoFM
+subtitle: 드론과 인공지능 기술을 활용한 시설물관리 솔루션
 layout: default
 modal-id: 3
 date: 2018-01-03
-img: InnoPPK.png
-thumbnail: InnoPPK.png
+img: InnoFM.png
+thumbnail: InnoFM.png
 alt: image-alt
 project-date: 2018-01-01
 client: 
-category: Hardware
-description: 드론에 편리하게 장착 가능한 PPK 모듈
+category: Machine Learning
+description: 드론과 인공지능 기술을 활용한 시설물관리 솔루션
 
 ---
