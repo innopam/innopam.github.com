@@ -1,6 +1,6 @@
 ---
 title: InnoPPK
-subtitle: Website Design
+subtitle: GNSS Board를 이용해 드론에 편리하게 장착 간으한 PPK 모듈
 layout: default
 modal-id: 2
 date: 2018년
