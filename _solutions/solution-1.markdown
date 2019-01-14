@@ -1,6 +1,6 @@
 ---
 title: Live Drone Map
-subtitle: 드론으로 촬영한 영상을 실시간으로 전송/매핑/가시화하는 솔루션
+subtitle: 드론영상을 실시간으로 전송/매핑/가시화하는 솔루션
 layout: default
 modal-id: 1
 date: 2017-01-01
