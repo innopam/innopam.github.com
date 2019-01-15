@@ -68,6 +68,7 @@ jQuery(document).ready(function ($) {
 		var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
 		if (refSize) {
 			refSize = Math.min(refSize, 1920);
+			refSize = Math.max(refSize, 768);
 			jssor_1_slider.$ScaleWidth(refSize);
 		}
 		else {
