@@ -14,6 +14,12 @@ $(function() {
         event.preventDefault();
     });
 });
+var goToTop = function(){
+	$('html, body').stop().animate({
+		$('#page-top').offset().top
+	}, 1500, 'easeInOutExpo');
+	
+};
 
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
