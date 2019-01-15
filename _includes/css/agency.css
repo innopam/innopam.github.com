@@ -883,7 +883,7 @@ body {
 }
 
 .innopam_ci {
-	width:170px;height:51px; background-image:url('img/logos/innopam_ci_white.png');display:block;transform:translate(0,7px);
+	display:block;width:170px;height:51px; background-image:url('img/logos/innopam_ci_white.png');display:block;padding:0;transform:translate(0,7px);
 }
 
 
@@ -902,7 +902,7 @@ body {
 
 @media(max-width:768px) {
 	.innopam_ci {
-		width:120px;height:33px; background-image:url('img/logos/innopam_ci_white.png');background-size:120px;transform:translate(0,3);
+		width:120px;height:36px; background-image:url('img/logos/innopam_ci_white.png');background-size:120px;transform:translate(15px,12px);
 	}	
 		
 	.icon{
