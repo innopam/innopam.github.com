@@ -16,7 +16,7 @@ $(function() {
 });
 var goToTop = function(){
 	$('html, body').stop().animate({
-		$('#page-top').offset().top
+		scrollTop: $('#page-top').offset().top
 	}, 1500, 'easeInOutExpo');
 	
 };
