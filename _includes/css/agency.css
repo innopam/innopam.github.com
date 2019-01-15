@@ -883,7 +883,7 @@ body {
 }
 
 .innopam_ci {
-	width:170px;height:51px; background-image:url('img/logos/innopam_ci_white.png');display:block;transform:translate(0,-7px);
+	width:170px;height:51px; background-image:url('img/logos/innopam_ci_white.png');display:block;transform:translate(0,7px);
 }
 
 
