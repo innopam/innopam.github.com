@@ -280,7 +280,9 @@ header {
     background-size: cover;
     -o-background-size: cover;*/
 }
-
+@media(max-width:768px) {
+	header {margin-top:60px;}
+}
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
