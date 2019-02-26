@@ -81,7 +81,7 @@ jQuery(document).ready(function ($) {
 	/*responsive code end*/
 });
 
-function buy-store (productId){
+function buy_store (productId) {
 	if(productId == 'BX316'){
 		window.open("https://smartstore.naver.com/gnssstore/products/4243956057","_blank");
 	}
