@@ -990,7 +990,7 @@ body {
 }
 
 
-.overlaybox {position:relative;width:360px;height:350px;background:url('//innopam.com/img/box_movie.png') no-repeat;padding:15px 10px;}
+.overlaybox {position:relative;width:360px;height:350px;background:url('img/box_movie.png') no-repeat;padding:15px 10px;}
 .overlaybox div, ul {overflow:hidden;margin:0;padding:0;}
 .overlaybox li {list-style: none;}
 .overlaybox .boxtitle {color:#fff;font-size:16px;font-weight:bold;background: url('img/map/arrow_white.png') no-repeat right 120px center;margin-bottom:8px;}
@@ -1006,7 +1006,7 @@ body {
 .overlaybox li span {display:inline-block;}
 .overlaybox li .number {font-size:16px;font-weight:bold;}
 .overlaybox li .title {font-size:13px;}
-.overlaybox ul .arrow {position:absolute;margin-top:8px;right:25px;width:5px;height:3px;background:url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/updown.png') no-repeat;} 
+.overlaybox ul .arrow {position:absolute;margin-top:8px;right:25px;width:5px;height:3px;background:url('img/map/updown.png') no-repeat;} 
 .overlaybox li .up {background-position:0 -40px;}
 .overlaybox li .down {background-position:0 -60px;}
 .overlaybox li .count {position:absolute;margin-top:5px;right:15px;font-size:10px;}
