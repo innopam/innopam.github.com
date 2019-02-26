@@ -80,3 +80,9 @@ jQuery(document).ready(function ($) {
 	$(window).bind("orientationchange", ScaleSlider);
 	/*responsive code end*/
 });
+
+function buy-store (productId){
+	if(productId == 'BX316'){
+		window.open("https://smartstore.naver.com/gnssstore/products/4243956057","_blank");
+	}
+}
