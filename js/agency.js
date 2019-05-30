@@ -82,7 +82,21 @@ jQuery(document).ready(function ($) {
 });
 
 function buy_store (productId) {
-	if(productId == 'BX316'){
-		window.open("https://smartstore.naver.com/gnssstore/products/4243956057","_blank");
+	
+	var url = "";
+	switch(productId){
+		case "BX316":
+			url = "https://smartstore.naver.com/gnssstore/products/4243956057";
+			break;
+		case "BX316R":
+			url = "https://smartstore.naver.com/gnssstore/products/4243956057";
+			break;
+		case "GNSS":
+			url = "https://smartstore.naver.com/gnssstore/products/4350460623";
+			break;
+		default:
+			url = "https://smartstore.naver.com/gnssstore/";
+			break;
 	}
+	window.open(url,"_blank");
 }
