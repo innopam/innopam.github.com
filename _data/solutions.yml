@@ -5,7 +5,7 @@ lists:
   - id: 1
     title: DmapAI
     subtitle: Drone Mapping AI
-    description: "드론 영상을 업로드하면 정사영사(Orthophoto), 포인트클라우드(PointCloud), 3차원모델(3D Mesh), DSM(Digital Surface Model)을 생성하는 솔루션"
+    description: "드론 영상을 업로드하면 정사영상(Orthophoto), 포인트클라우드(PointCloud), 3차원모델(3D Mesh), DSM(Digital Surface Model)을 생성하는 솔루션"
     image: "/assets/img/solutions/dmapai.gif"
     url: "#"
 
